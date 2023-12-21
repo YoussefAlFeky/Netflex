@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgs/bg2.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.logo img{
+
+    width: 180px;
+    height:100px;
+    margin-left:100px;
+}
+
+.signin{
+
+    font-size: 18px;
+    padding:10px;
+    background-color:red;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.signin:hover{
+
+    background-color: rgb(151, 7, 7);
+}
+
+#lang{
+    background: transparent;
+    font-size: 16px;
+    color:#fff;
+    padding:10px;
+    margin:20px;
+
+}
+
+option{
+    color:black;
+}
+
+section{
+    padding:160px 360px;
+  
+}
+
+.home h1{
+    color:#fff;
+    font-size:29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 80px;
+
+
+}
+.home p{
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.get-started{
+   
+
+        font-size: 30px;
+        padding:10px;
+        margin:10px;
+        background-color:red;
+        color:#fff;
+        border:none;
+        border-radius: 5px;
+        transition: 0.4s ease;
+        text-transform: capitalize;
+    }
+    
+    .get-started:hover{
+    
+        background-color: rgb(151, 7, 7);
+    }
+
+    form input{
+        background: transparent;
+        color:#fff;
+        border:1px solid #a9a2a2;
+        padding:10px;
+        padding-right: 20px;
+        font-size: 20px;
+        margin-left:100px;
+        margin-top: 20px;
+    }
+
+    hr{
+       background-color: rgb(44, 41, 41) ; 
+       height: 10px;
+       border: none;
+    }
+
+    .enjoy{
+        display: flex;
+        background-color: black;
+        color:#fff;
+        justify-content: center;
+       
+    }
+
+    .enjoy-tv h1{
+        width: 460px;
+        font-size: 55px;
+        padding-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 100px;
+    }
+
+    .enjoy-tv p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+    }
+
+    .tv-pic img{
+        width:600px;
+        
+    }
+
+    .downloads{
+        display: flex;
+        background-color: black;
+        color:#fff;
+        justify-content: center;
+    }
+    
+ .save-movie h1{
+    width: 500px;
+    font-size: 40px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    font-weight: 900;
+
+ }
+
+ .save-movie p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+
+ }
+
+ .save-movie img{
+    width:300px;
+    height: 20px;
+    
+}
+
+
+
+    .watch{
+        display: flex;
+        background-color: black;
+        color:#fff;
+        justify-content: center;
+    }
+    
+ .watch-movie h1{
+    width: 500px;
+    font-size: 40px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    font-weight: 900;
+
+ }
+
+ .watch-movie p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+
+ }
+
+ .watch-movie img{
+    width:300px;
+    height: 20px;
+    
+}
+
+
+
+    .kids{
+        display: flex;
+        background-color: black;
+        color:#fff;
+        justify-content: center;
+    }
+    
+ .kids-movie h1{
+    width: 500px;
+    font-size: 40px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    font-weight: 900;
+
+ }
+
+ .kids-movie p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+
+ }
+
+ .kids-movie img{
+    width:150px;
+    height: 20px;
+    
+}
+
+.FAQ{
+    background-color: black;
+}
+
+.FAQ h1{
+    color:#fff;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(44, 41, 41);
+    padding:20px;
+    margin: 30px;
+    color:#fff;
+    font-size: 30px;
+   
+   
+
+}
+
+.FAQ p{
+    color:#fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.get-started-2{
+   
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin:10px;
+    background-color:red;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    text-transform: capitalize;
+}
+
+.get-started-2:hover{
+
+    background-color: rgb(151, 7, 7);
+}
+
+.form-2 input{
+    background: transparent;
+    color:#fff;
+    border:1px solid #a9a2a2;
+    padding:10px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+hr{
+   background-color: rgb(44, 41, 41) ; 
+   height: 10px;
+   border: none;
+}
+
+.contact {
+    display: flex;
+    justify-items: flex-start;
+    background-color: black;
+    color:#a9a2a2;
+}
+
+.contact ul li{
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    padding-top: 10px;
+}
